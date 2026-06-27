@@ -27,7 +27,7 @@ def main():
     create_folders()
 
     app = QApplication(sys.argv)
-
+   apply_theme(app)
     window = MainWindow()
 
     window.show()
@@ -37,5 +37,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    from ui.theme import apply_theme
+    
     
